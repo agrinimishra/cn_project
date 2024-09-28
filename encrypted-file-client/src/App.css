@@ -1,0 +1,66 @@
+/* App.css */
+
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h3 {
+  color: #555;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+  max-width: 600px;
+  margin: 10px auto;
+  white-space: pre-wrap; /* Allow text to wrap */
+}
+
+pre:before {
+  content: ' ';
+  display: block;
+  height: 5px;
+}
+
+pre:after {
+  content: ' ';
+  display: block;
+  height: 5px;
+}
